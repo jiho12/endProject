@@ -41,9 +41,7 @@ public class RestDao {
 			pstmt.setString(5, dto.getSeat_num());
 			pstmt.setString(6, dto.getK_code());
 			pstmt.setString(7, dto.getG_code());
-			pstmt.setString(8, dto.getI_code());
-			pstmt.setString(9, dto.getM_code());
-			pstmt.setString(10, dto.getU_code());
+			pstmt.setString(8, dto.getM_code());
 			pstmt.executeUpdate();
 			ri = RestDao.REST_JOIN_SUCCESS;	// 가게 등록 성공
 		} catch (Exception e) {

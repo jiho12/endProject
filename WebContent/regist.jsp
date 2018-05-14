@@ -12,16 +12,15 @@
 <title>Insert title here</title>
 </head>
 <body>
-<% System.out.println(m_code); %>
 <div class='wrap'>
-  <span class='title'>Real Time Seat Store Regist</span>
-    <form action="registOk.jsp" method="post" name="rreg_frm">
-        <input type='text' id='name' name='name' placeholder='가게명'>
+  <span class='title'>Real Time Seat Store Regist</span><br>
+    <form action="registOk.jsp" method="post">
+        <input type='text' id='name' name='r_name' placeholder='가게명'>
         <input type='text' id='introt' name='intro' placeholder='가게 소개'>
         <input type='text' id='seat_numt' name='seat_num' placeholder='좌석 수'>
-        <input type='radio' name='k_code' value='c' checked>카페  &nbsp;
-        <input type='radio' name='k_code' value='r' checked>식당  &nbsp;
-        <input type='radio' name='k_code' value='s' checked>술집
+        <input type='radio' name='k_code' value='1' checked>카페  &nbsp;
+        <input type='radio' name='k_code' value='2'>식당  &nbsp;
+        <input type='radio' name='k_code' value='3'>술집
         <select name="g_code">
         	<option value="01">서울</option>
         	<option value="02">경기</option>

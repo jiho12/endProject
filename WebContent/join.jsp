@@ -10,7 +10,7 @@
 </head>
 <body>
 <div class='wrap'>
-  <span class='title'>Real Time Seat Join</span>
+  <span class='title'>Real Time Seat Join</span><br>
     <form action="joinOk.jsp" method="post" name="reg_frm">
         <input type='text' id='id' name='id' placeholder='UserID'>
         <input type='password' id='pw' name='pw' placeholder='Password'>
